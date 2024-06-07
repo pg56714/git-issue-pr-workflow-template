@@ -23,5 +23,5 @@ https://github.com/pg56714/git-issue-pr-workflow-template/issues/XX
 
 ## PR Checklist
 
-- [ ] I have read the [Contributing Guide](../.github/CONTRIBUTING.md)
+- [ ] I have read the [Contributing Guide](../.github/CONTRIBUTING.md).
 - [ ] I have written documentation and tests where necessary.
