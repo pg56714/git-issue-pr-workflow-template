@@ -1,0 +1,47 @@
+name: "Feature Request"
+description: Submit a suggestion to help us improve.
+title: "[Feat]: "
+labels: ["feat", "enhancement"]
+# assignees:
+#   - pg56714
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+  - type: textarea
+    id: feature_description
+    attributes:
+      label: Describe the feature
+      description: A clear and concise description of what you want to happen. If applicable, add mockups or diagrams to help illustrate your idea.
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Benefits
+      description: Explain the benefits this feature would provide.
+      value: |
+        1. Improve usability...
+        2. Increase efficiency...
+        3. Enhance user experience...
+    validations:
+      required: true
+  - type: input
+    id: context
+    attributes:
+      label: Context
+      description: Any additional context or information about the environment where the feature would be useful?
+      placeholder: e.g., In scenarios where multiple users...
+    validations:
+      required: true
+  - type: checkboxes
+    id: agreements
+    attributes:
+      label: Confirmations
+      description: Before submitting the request, please confirm the following
+      options:
+        - label: I have followed the [Code of Conduct](https://github.com/pg56714/git-issue-pr-workflow-template/blob/main/.github/CODE_OF_CONDUCT.md)
+          required: true
+        - label: I have checked that there isn't [already a similar feature request](https://github.com/pg56714/git-issue-pr-workflow-template/issues) to avoid creating a duplicate.
+          required: true
