@@ -1,16 +1,27 @@
-<!--- PULL_REQUEST_TEMPLATE.md -->
+<!-- 1. Verify and Update PR Title -->
+<!-- Example PR Title: `[build | chore | ci | docs | feat | fix | perf | refactor | revert | style | test]: Fix page layout` -->
 
-## Summary
+<!-- 2. Provide a detailed description of the changes -->
 
-<!---
-Please include a summary of the changes and the related issues. List any dependencies that are required for this change.
+## Description
 
-Fixes # (issue number)
+<!--
+- Provide a comprehensive description of the changes made.
+- Highlight the importance of the changes and how they improve the project.
+- If there are pending TODOs, list them with clear objectives.
+- Guide the reviewers through your changes for easier understanding.
+- Attach visuals (screenshots, screen recordings) if they help validate the changes.
 -->
 
-## How Has This Been Tested?
+<!-- 3. Link the Github Issue related to these changes -->
 
-<!---
-Please describe in detail how you tested your changes.
-Include details of your testing environment, and the tests you ran to.
--->
+## Related tickets
+
+https://github.com/pg56714/git-issue-pr-workflow-template/issues/XX
+
+<!-- 4. Confirm the following before submitting your PR -->
+
+## PR Checklist
+
+- [ ] I have read the [Contributing Guide](../.github/CONTRIBUTING.md)
+- [ ] I have written documentation and tests where necessary.

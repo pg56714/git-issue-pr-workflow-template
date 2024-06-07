@@ -51,7 +51,7 @@ To set up a development environment, please follow these steps:
 
 Consider following the below format for the commit message:
 
-Commit Type : `|build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test`
+Commit Type : `[build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test]`
 
 **Examples**
 
