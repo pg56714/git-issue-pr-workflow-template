@@ -10,7 +10,7 @@ github repository -> create new file -> .github/PULL_REQUEST_TEMPLATE.md
 
 ## Contributing
 
-Check out the [Contributing Guide](.github/CONTRIBUTING.md).
+Check out the [Contributing Guide](.github/CONTRIBUTING.md)
 
 ### Contributors
 
